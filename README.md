@@ -10,4 +10,4 @@ Repository associated with the paper "Spherical Double K-Means: a co-clustering 
 - applicationNEWS_SDKM.m perform the SDKM algorithm on "data_news_sample.csv", i.e. the cleaned terms-documents frequency matrix of the 20 newsgroup dataset.
 
 - data_text.csv contains the cleaned terms-documents frequency matrix of the presidential inaugural addresses dataset (from the quanteda R package).
-- data_news_sample.csv contains the cleaned terms-documents frequency matrix of the 20 newsgroup dataset (freely available online https://www.kaggle.com/datasets/crawford/20-newsgroups).
+- data_news_sample.csv contains the cleaned terms-documents frequency matrix of the 20 newsgroup dataset sampled. The full dataset is freely available online https://www.kaggle.com/datasets/crawford/20-newsgroups.
