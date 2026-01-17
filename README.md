@@ -14,3 +14,4 @@ Repository associated with the paper "Spherical Double K-Means: a co-clustering 
 
 - Presidents.R contains the data loading from the quanteda package of the U.S. presidential inauguaral adresses, the data preprocessing and saving. Then, after the SDKM application in matlab, the cluster assigments are loaded for the plotting and interpretation of the results.
 - 20news.R contains the data loading and preprocessing of the 20newsgoup corpus. Such as for the presidents application, the SDKM is done with matlab, and then the cluster assigments are loaded for the plotting and interpretation of the results.
+- movMFcomparison.R contains the Comparison with mixtures of von Mises–Fisher (vMF) components on both U.S. presidential data and simulated data.
