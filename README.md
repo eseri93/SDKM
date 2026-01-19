@@ -37,6 +37,7 @@ Make sure your working directory is the repository root (or the folder containin
 2) *Presidential inaugural addresses (data_text)*
 
 R preprocessing
+
 1. Run Presidents.R to:
    - load the quanteda inaugural corpus,
    - preprocess text,
@@ -44,6 +45,7 @@ R preprocessing
    - export data_text.csv (and optionally data_text.Rdata).
 
 MATLAB clustering
+
 2. Run application_SDKM.m to:
    - compute pseudo-F for (𝐾,𝑄)∈{2,…,6}
    - run SDKM with K=3, Q=2,
@@ -52,6 +54,7 @@ MATLAB clustering
 3. (Optional baseline) Run applicationDKM.m to run DKM and save Udkm.mat, Vdkm.mat, Ymdkm.mat, fdkm.mat.
 
 R post-processing / plots
+
 4. Run Presidents.R again (plot/interpretation section) to load MATLAB outputs (e.g., wordClusterIdx.mat, docClusterIdx.mat, or U/V matrices depending on your export) and generate plots and summaries.
 
 3) *20 Newsgroups (data_news_sample)*
@@ -65,10 +68,12 @@ R preprocessing + sampling
     - export data_news_sample.csv (and optionally data_news_samp.Rdata).
 
 MATLAB clustering
+
 2. Run applicationNEWS_SDKM.m to run SDKM on data_news_sample.csv and save:
    - Usdkm_news.mat, Vsdkm_news.mat, Ymsdkm_news.mat, fsdkm_news.mat.
 
 R diagnostics / interpretation
+
 3. Run the analysis section of 20news.R to import the MATLAB outputs and compute diagnostics (cluster summaries, heatmaps, representative documents, silhouette scores).
 
 4) *Simulation study*
