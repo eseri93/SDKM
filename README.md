@@ -15,6 +15,6 @@ Repository associated with the paper "Spherical Double K-Means: a co-clustering 
 - data_news_sample.csv contains the cleaned terms-documents frequency matrix of the 20 newsgroup dataset sampled. The full dataset is freely available online https://www.kaggle.com/datasets/crawford/20-newsgroups.
 
 - Presidents.R contains the data loading from the quanteda package of the U.S. presidential inauguaral adresses, the data preprocessing and saving. Then, after the SDKM application in matlab, the cluster assigments are loaded for the plotting and interpretation of the results.
-- 20news.R contains the data loading and preprocessing of the 20newsgoup corpus. Such as for the presidents application, the SDKM is done with matlab, and then the cluster assigments are loaded for the plotting and interpretation of the results.
+- 20news.R loads and cleans the 20 Newsgroups email corpus, builds a trimmed TF-IDF term–document matrix (exported for MATLAB SDKM/DKM), optionally creates a stratified sample, and imports MATLAB SDKM results to produce basic diagnostics (cluster summaries, heatmaps, representative documents, and cosine-silhouette scores).
 - movMFcomparison.R contains the Comparison with mixtures of von Mises–Fisher (vMF) components on both U.S. presidential data and simulated data.
 - COMPARISON.R contains the comparison between the cluster assignments of SDKM and DKM on the U.S. presidential data.
