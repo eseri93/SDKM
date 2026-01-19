@@ -1,4 +1,4 @@
-SDKM
+*SDKM*
 
 Repository associated with the paper “Spherical Double K-Means: a co-clustering approach for textual data analysis”. It contains the MATLAB and R code for the proposed methodology, simulations, and applications.
 
@@ -74,9 +74,8 @@ R diagnostics / interpretation
 
 4) Simulation study
 
-1. Run scenarios_simulation.m to generate synthetic datasets and evaluate SDKM under different noise levels.
-
-2. Run the simulation section in movMFcomparison.R to evaluate vMF recovery on the simulated .mat datasets.
+   1. Run scenarios_simulation.m to generate synthetic datasets and evaluate SDKM under different noise levels.
+   2. Run the simulation section in movMFcomparison.R to evaluate vMF recovery on the simulated .mat datasets.
 
 5) DKM vs SDKM comparison (Presidents)
 
