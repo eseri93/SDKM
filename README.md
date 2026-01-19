@@ -5,6 +5,7 @@ Repository associated with the paper "Spherical Double K-Means: a co-clustering 
 - pseudo_F_index.m contains the pseudo-F code for choosing the number of clusters.
 - GenDataSDKM.m contains the code to generate SDKM data (for simulations).
 - scenarios_simulation.m run simulations with different level of errors.
+- bghungar.m implements a robust MATLAB version of the Hungarian algorithm to solve square assignment problems (used here to handle label switching by optimally matching cluster labels).
 - application_SDKM.m perform the SDKM algorithm on "data_text.csv", i.e. the cleaned terms-documents frequency matrix of the presidential inaugural addresses dataset.
 - applicationNEWS_SDKM.m perform the SDKM algorithm on "data_news_sample.csv", i.e. the cleaned terms-documents frequency matrix of the 20 newsgroup dataset.
 - DKM.m contains the DKM code
