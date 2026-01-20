@@ -13,6 +13,7 @@ Code and data repository for “Spherical Double K-Means: a co-clustering approa
 - applicationNEWS_SDKM.m: runs SDKM on data_news_sample.csv (sampled 20 Newsgroups term–document matrix).
 - DKM.m: implementation of the Double K-Means (DKM) baseline algorithm.
 - application_DKM.m: runs DKM on data_text.csv (U.S. presidential inaugural addresses term–document matrix).
+- choose_RndStarts.m evaluates the impact of the number of random starts (Rndst) in SDKM on avoiding local maxima, by repeatedly running SDKM on synthetic data and comparing the achieved objective values to the ground-truth objective. This is a diagnostic/tuning script; not required to reproduce the paper’s main results.
 
 *Data files*
 
