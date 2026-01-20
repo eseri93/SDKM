@@ -1,6 +1,6 @@
 **SDKM**
 
-Repository associated with the paper “Spherical Double K-Means: a co-clustering approach for textual data analysis”. It contains the MATLAB and R code for the proposed methodology, simulations, and applications.
+Code and data repository for “Spherical Double K-Means: a co-clustering approach for textual data analysis” by Ilaria Bombelli, Domenica Fioredistella Iezzi, Emiliano Seri, and Maurizio Vichi. The repository includes MATLAB, R scripts and datasets to reproduce the analyses in the paper.
 
 *MATLAB files*
 
