@@ -12,7 +12,7 @@ Repository associated with the paper “Spherical Double K-Means: a co-clusterin
 - application_SDKM.m: runs SDKM on data_text.csv (U.S. presidential inaugural addresses term–document matrix).
 - applicationNEWS_SDKM.m: runs SDKM on data_news_sample.csv (sampled 20 Newsgroups term–document matrix).
 - DKM.m: implementation of the Double K-Means (DKM) baseline algorithm.
-- applicationDKM.m: runs DKM on data_text.csv (U.S. presidential inaugural addresses term–document matrix).
+- application_DKM.m: runs DKM on data_text.csv (U.S. presidential inaugural addresses term–document matrix).
 
 *Data files*
 
