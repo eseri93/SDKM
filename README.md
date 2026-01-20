@@ -30,6 +30,7 @@ Code and data repository for “Spherical Double K-Means: a co-clustering approa
 1) *Requirements*
 
 - MATLAB (tested with recent versions)
+  - Statistics and Machine Learning Toolbox (required; used for functions such as rmse, etc.)
 - R (≥ 4.0 recommended) with packages used in the scripts (e.g., quanteda, readtext, R.matlab, tidyverse, movMF, mclust, etc.)
 
 Make sure your working directory is the repository root (or the folder containing the scripts and data files).
